@@ -27,7 +27,7 @@ export class CreateRoomComponent implements OnInit {
       (error) => console.log(error)
     );
     this.room = new Room();
-    this.goToList();
+    this.gotoList();
   }
 
   onSubmit() {
@@ -35,7 +35,7 @@ export class CreateRoomComponent implements OnInit {
     this.save();
   }
 
-  goToList() {
+  gotoList() {
     this.router.navigate(['/rooms']);
   }
 }
