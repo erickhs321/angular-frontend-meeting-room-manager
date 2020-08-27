@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RoomDetailsComponents } from 'src/app/room-details.component';
+import { RoomDetailsComponent } from 'src/app/room-details/room-details.component';
 import { Observable } from 'rxjs';
 import { RoomService } from '../room.service';
 import { Room } from '../room';
