@@ -3,6 +3,6 @@ export class Room {
   name: string;
   date: string;
   startHour: string;
-  endHouer: string;
+  endHour: string;
   active: boolean;
 }
